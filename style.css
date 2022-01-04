@@ -62,6 +62,23 @@ h4{
 .baby-web{
     padding:50px 40px;
     box-shadow: 0px 2px 35px rgb(70, 61, 61);
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+.full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,
+     blue);
+     border-image-slice: 1;
+    
+}
+.baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
 .experience>h2{
     margin-left: 5%;
